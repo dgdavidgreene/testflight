@@ -8,8 +8,11 @@ dependencyResolutionManagement {
 }
 rootProject.name = "Test Flight"
 include ':app'
-include ':core'
-include ':ui'
 include ':features'
 include ':features:families'
+include ':core'
+include ':ui'
 include ':features:families:gratitude'
+include ':features:families:gratitude:gratitude_data'
+include ':features:families:gratitude:gratitude_domain'
+include ':features:families:gratitude:gratitude_ui'
